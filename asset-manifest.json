@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/frontend-recommender-final/static/css/main.070417b5.css",
-    "main.js": "/frontend-recommender-final/static/js/main.aab1fa7d.js",
-    "index.html": "/frontend-recommender-final/index.html",
-    "main.070417b5.css.map": "/frontend-recommender-final/static/css/main.070417b5.css.map",
-    "main.aab1fa7d.js.map": "/frontend-recommender-final/static/js/main.aab1fa7d.js.map"
+    "main.css": "/steam-recommender/static/css/main.070417b5.css",
+    "main.js": "/steam-recommender/static/js/main.aab1fa7d.js",
+    "index.html": "/steam-recommender/index.html",
+    "main.070417b5.css.map": "/steam-recommender/static/css/main.070417b5.css.map",
+    "main.aab1fa7d.js.map": "/steam-recommender/static/js/main.aab1fa7d.js.map"
   },
   "entrypoints": [
     "static/css/main.070417b5.css",
