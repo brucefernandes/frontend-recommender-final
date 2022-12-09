@@ -2,7 +2,7 @@
   "name": "front-end-recommender",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/brucefernandes/frontend-recommender-final/",
+  "homepage": "https://brucefernandes.github.io/frontend-recommender-final/",
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
