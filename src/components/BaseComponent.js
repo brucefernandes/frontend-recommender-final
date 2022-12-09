@@ -15,7 +15,7 @@ function BaseComponent() {
     useEffect(() => {
 
         let query = async () => {
-            const response = await axios.get(`https://intense-fjord-20781.herokuapp.com/game_titles`)
+            const response = await axios.get(`https://backend-recommender-api-final.onrender.com/game_titles`)
             setgameTitleQueryResults(response.data)
         }
 
