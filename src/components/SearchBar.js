@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import axios from 'axios'
 import Fade from '@mui/material/Fade';
 
-function SearchBar({ placeholder, data, getSearchResults }) {
+const SearchBar = ({ placeholder, data, getSearchResults }) => {
 
     const [filteredData, setFilteredData] = useState([]);
     const [wordEntered, setWordEntered] = useState("");
@@ -47,7 +47,8 @@ function SearchBar({ placeholder, data, getSearchResults }) {
         setSearchBarHeight("100px")
         setRadius(['27px', '27px', '27px', '27px'])
 
-        const response = await axios.post(`https://backend-recommender-api-final.onrender.com/recommend`, { name: name })
+        const response = await axios.get(`https://backend-recommender-api-final.onrender.com/recommend?name=${name}`)
+
         getSearchResults(response.data)
 
     }
